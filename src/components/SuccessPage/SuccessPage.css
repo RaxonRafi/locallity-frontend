@@ -1,0 +1,28 @@
+.success-width {
+    width: 600px;
+}
+.success {
+    width: 120px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.success a img {
+    width: 100%;
+}
+.success-cover {
+    position: relative;
+}
+.success-info {
+    position: absolute;
+    right: 145px;
+    top: 6px;
+}
+@media only screen and (max-width: 700px){
+    .success-width {
+        width: 95%;
+    }
+    .success-info {
+        display: none;
+    }
+}
